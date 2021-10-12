@@ -40,7 +40,8 @@ h1,
 h2,
 h3 {
 	font-family: "playfair display", calibri;
-	color: #3e606b
+	color: #3e606b;
+	margin-top: 0;
 }
 
 h1 {
@@ -107,13 +108,13 @@ h3 {
 .hero p {
 	padding-right: 40%;
 	padding-top: 0;
-	margin-top: 0;
 	color: #ffffff;
 }
 
 .hero p {
 	font-style: italic;
 	font-size: 24px;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
@@ -163,10 +164,6 @@ h3 {
 
 .dailytext {
 	padding-top: 80px;
-}
-
-.dailytext h2 {
-	margin-top: 0;
 }
 
 .dailypics {
@@ -220,4 +217,8 @@ footer {
 	color: #ffffff;
 	padding: 30px;
 	text-align: center;
+}
+
+footer p {
+	margin: 0;
 }
