@@ -31,5 +31,193 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: lora, calibri;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
+h1,
+h2,
+h3 {
+	font-family: "playfair display", calibri;
+	color: #3e606b
+}
+
+h1 {
+	font-size: 52px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+.content {
+	max-width: 1100px;
+	margin: auto;
+}
+
+.header {
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 170px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #242424;
+	border-radius: 20px;
+	padding: 10px 15px;
+}
+
+.menu li {
+	display: inline-block;	
+}
+
+
+.menu a:hover,
+.menu a:focus {
+    background-color: #f195b2;
+	color: #ffffff;
+}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.hero h1,
+.hero p {
+	padding-right: 40%;
+	padding-top: 0;
+	margin-top: 0;
+	color: #ffffff;
+}
+
+.hero p {
+	font-style: italic;
+	font-size: 24px;
+	margin-bottom: 0;
+}
+
+
+.welcome {
+	display: flex;
+	margin: 80px auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.welcomeleft {
+	flex: 0 0 calc(50% - 15px);
+}
+
+.welcomeright {
+	flex: 0 0 calc(50% - 15px);
+}
+
+.welcomeright img {
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+.welcomeleft {
+	padding-right: 30px;
+}
+
+.welcomeleft a {
+	display: inline-block;
+	padding: 15px 40px;
+	background-color: #f195b2;
+	border-radius: 40px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.welcomeleft a:hover {
+	background-color: #d2567d;
+}
+
+
+
+.daily {
+	background-color: #f0f0f0;
+}
+
+.dailytext {
+	padding-top: 80px;
+}
+
+.dailytext h2 {
+	margin-top: 0;
+}
+
+.dailypics {
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.cake {
+	flex-direction: column;
+	width: calc((100% - 90px) / 4);
+	justify-content: space-between;
+	background-color: #ffffff;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #c0c0c0;
+}
+
+.cake img {
+	max-width: 100%;
+	border-radius: 5px 5px 0 0;
+}
+
+.cake h3,
+.cake p {
+	margin: 20px;
+}
+
+.baking {
+	display: flex;
+	margin: 80px auto;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bakingright,
+.bakingleft {
+	flex: 0 0 calc(50% - 15px);
+}
+
+.bakingleft img {
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+
+
+
+footer {
+	background-color: #303339;
+	color: #ffffff;
+	padding: 30px;
+	text-align: center;
+}
